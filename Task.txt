@@ -1,0 +1,23 @@
+=== Day 1 Tasks ===
+1. Set Up Project Structure and Dependencies
+   - Created Spring Boot project (finance-assistant) with Maven, added Spring Web, Spring Data JPA, PostgreSQL dependencies.
+   - Status: Completed.
+
+2. Configure Database Connection
+   - Set up PostgreSQL, created finance_assistant database, configured tanmesh user, updated application.properties.
+   - Status: Completed.
+
+3. Create User Entity
+   - Created User.java with @Entity, @Id, fields (id, email, password, preferences), fixed package to entity.
+   - Status: Completed.
+
+=== Day 2 Tasks ===
+1. Implement UserRepository Interface
+   - Created UserRepository.java extending JpaRepository<User, Long>, resolved package errors.
+   - Status: Completed.
+
+2. Build Basic REST APIs (Task 5)
+   - Created UserController with POST/register and GET/{id}, fixed schema (user to users), added GlobalExceptionHandler for 404.
+   - Status: Completed.
+
+

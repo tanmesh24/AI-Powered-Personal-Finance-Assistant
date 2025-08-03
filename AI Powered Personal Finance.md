@@ -13,3 +13,22 @@ A full-stack web application to manage finances, with AI-driven insights, budget
 - Frontend: React
 - Database: PostgreSQL
 - ML: Weka
+
+
+
+ \d
+             List of relations
+ Schema |     Name     |   Type   |  Owner  
+--------+--------------+----------+---------
+ public | users        | table    | tanmesh
+ public | users_id_seq | sequence | tanmesh
+(2 rows)
+
+finance_assistant=> \dt
+        List of relations
+ Schema | Name  | Type  |  Owner  
+--------+-------+-------+---------
+ public | users | table | tanmesh
+(1 row)
+
+
